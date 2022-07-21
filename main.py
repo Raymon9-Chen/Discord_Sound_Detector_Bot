@@ -20,11 +20,7 @@ pin = AnalogIn(ads, ADS.P3)
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
     if pin.voltage > 15000:
-        await client.get.user(300384681915056141).send('Too Loud')
+        await client.get.user(PERSONAL DISCORD ID HERE).send('Too Loud')
         
 #replace placeholder with your discord ID
 client.run(placeholder)
-
-
-
-
